@@ -9,3 +9,5 @@
 2025-05-26 15:51:30,901 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
 2025-05-26 15:54:24,485 - INFO - OpenAI client environment set successfully.
 2025-05-26 15:54:25,065 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 16:11:39,808 - INFO - OpenAI client environment set successfully.
+2025-05-26 16:11:40,446 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
