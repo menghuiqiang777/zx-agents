@@ -2,17 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name='zx-agents',
-    version='0.1',
+    version='0.0.3',
     packages=find_packages(),
     install_requires=[
-        # 列出项目依赖的其他包
-        # 例如: 'requests',
-        'os'
-        'logging'
-        'openai'
-        'asyncio'
-        'agents'
-        'typing'
+        # 这里需要注意，os、logging、asyncio、typing 是 Python 标准库，无需安装
+        'openai',
+        'agents',
         'mlflow'
     ],
     author='Meng',
