@@ -1,3 +1,4 @@
+import os
 from setuptools import setup, find_packages
 
 setup(
@@ -5,7 +6,6 @@ setup(
     version='0.0.3',
     packages=find_packages(),
     install_requires=[
-        # 这里需要注意，os、logging、asyncio、typing 是 Python 标准库，无需安装
         'openai',
         'agents',
         'mlflow'
@@ -13,5 +13,17 @@ setup(
     author='Meng',
     author_email='meng@zxtech.info',
     description='openai-agnets自定义配置',
+    long_description=open('README.md').read() if os.path.exists('README.md') else '',
+    long_description_content_type='text/markdown',
     url='https://github.com/menghuiqiang777/zx-agents',
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+    ],
 )
